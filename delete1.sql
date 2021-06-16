@@ -1,2 +1,5 @@
-DELETE FROM subjects WHERE subbjects.name='History';
-DELETE FROM books_subjects WHERE books_subjects.subject=9;
+delete from books_subjects
+where books_subjects.subject = 9;
+
+delete from subjects
+where subjects.name = 'History';
